@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+   <html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    
+    header {
+      width: 100%;
+      height: 60px;
+      border: solid;
+      background-color: darkgreen;
+      margin: 0;
+      padding: 0;
+      float: left;
+      /* box-sizing:border-box; */
+    }
+
+    h1 {
+      font-family: sans-serif;
+      font-size:30px;
+      margin-left: 20px;
+      color:gold;
+      text-align:center;
+    }
+
+    p {
+      text-align: right;
+      padding: 0;
+      margin: 20px;
+      color: black;
+    }
+
+    nav {
+      height: 100px;
+      width: 1445px;
+      background:pink;
+      float: left;
+      padding: 40px; 
+     }
+    #search {
+      width: 250px;
+      height: 50px;
+      font-size: 20px;
+    }
+    #Search-button {
+      width: 100px;
+      height: 50px;
+      font-size: 20px;
+    }
+    table {
+      width: 700px;
+      height: 50px;
+      background-color: white;
+      float: right;
+    }
+
+    #table-colomn {
+      background: white;
+      /* margin:5px; */
+      text-align: center;
+    }
+
+    .contact {
+      text-align: right;
+    }
+
+    /* .venue {
+      margin:10px;
+    }  */
+
+    .bredcumb
+    {
+     margin-bottom:20px;
+    }
+
+    .tleft-side
+    {
+      background-color:;
+      color:white;
+      font-size:large;
+      text-align:center;
+      border-width:5px;
+      border-radius:7px;
+      left-margin:0%;
+      left-padding:0%;
+
+    }
+
+    .right-column
+    {
+      
+    }
+
+    .HD-image
+    {
+      width:97%;
+      height:522px;
+      margin-left:20px;
+      /* display:none; */
+    }
+
+    #menubar-div
+    {
+      margin-bottom:300px;
+      
+      
+    }
+
+    #menubar-table
+    {
+      
+      width:90%;
+      margin-right:82px;
+      background-color:black;
+      
+    }
+
+    .table-allrow
+    {
+      height:45px;
+      border-radius:50pxpx;
+     
+      
+    }
+
+  
+  
+
+    #black-div {
+      height: 1950px;
+      width:100%;
+      background:white;
+      margin-bottom:300px;
+      margin-top:0;
+      
+     
+    }
+
+    #div-of-blackdiv
+    {
+      Width:100%;
+    }
+    
+    
+    #sweets-brand
+    {
+      padding-top:30px; 
+      color:black; 
+      text-align: center;
+      font-family: Great Vibes;
+      font-weight: normal;
+      font-size: 40px; 
+      padding:20px; 
+     
+
+
+    }
+
+
+    #pic-div
+    {
+      width:350px;
+      height:420px;
+      border-width:3px;
+      border-style:solid;
+      border-color:rgb(244, 240, 240);
+      float:left;
+      padding-top:0;
+      background-color:#f9f9f9;
+      /* box-sizing:border-box; */
+      
+      margin:75px; 
+      margin-bottom:40px;
+      margin-top:0; 
+      /* padding:100px; */
+    }
+
+
+    #sweets-pic
+    {
+      width:350px;
+      height:300px;
+    }
+
+
+    #pic-h5
+    {
+      color:black;
+      font-family:sans-serif;
+      text-align:center;
+      padding:0;
+      margin:0;
+      font-size:18px;
+    }
+
+    #price
+    {
+      
+      color:black;
+      float:left;
+      font-family:sans-serif;
+      margin-left:20px;
+    }
+
+     #original-price
+    {
+      color: black;
+      font-family:sans-serif;
+      padding:0;
+      margin:0;
+    } 
+
+    #order-button
+    {
+      width: 200px;
+      height:40px;
+      background-color:yellow;
+      font-family:sans-serif;
+      font-size:20px;
+      color:black;
+      font-weight:bold;
+      text-align:center;
+      border-radius:8px;
+      
+    }
+
+    .discount-price
+    {
+      color:black;
+      font-family:sans-serif;
+      text-decoration:line-through;
+
+    }
+
+    .button-div
+    {
+      display: flex;
+      justify-content:center;
+    }
+
+   
+    footer
+    {
+      height: 300px;
+      width: 100%;
+      background:green;
+      
+    }
+    #footer-div1
+    {
+      border-width:1px;
+      height:400;
+      width:500px;
+      border-color:green;
+      border-style:solid;
+      float:left;
+      margin-left:50px;
+    }
+    #footer-div3
+    {
+      border-width:1px;
+      height:200px;
+      width:300px;
+      border-color:green;
+      border-style:solid;
+      float:left;
+      margin-left:150px;
+    }
+  
+     #footer-div2
+    {
+      border-width:1px;
+      height:5px;
+      width:200px;
+      border-color:green;
+      border-style:solid;
+      float:right;
+      margin-right:50px;
+      align-content:center;
+      padding-bottom:150px;
+    }
+
+    #contactus
+    {
+      color:yellow;
+      font-family:sans-serif;
+      margin-right:280px;
+    }
+     #policies
+     {
+      color:yellow;
+      font-family:sans-serif;
+      margin-right:280px;
+     }
+     
+    .address
+    {
+      font-size:20px;
+      font-family:sans-serif;
+      color:white;
+      font-style:normal;
+      /* margin-left:200px; */
+      margin:10px;
+    }
+    #followus
+    {
+      color:yellow;
+      font-family:century gothic; 
+    }
+    .social-link
+    {
+      width:60px;
+      border-radius:50%;
+    }
+    #developer
+    {
+      color:black;
+      font-family:sans-serif;
+      font-size:normal;
+      border-color:green;
+      margin-left:600px;
+      
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><marquee>Mithai shop</marquee></h1>
+  </header>
+  <nav>
+    <p style="margin-top:5px; color:green" weight:bold>The world's largest Sweets and bakeries shop</p>
+    <div style="display: flex;">
+      <div class="search-box">
+        <form>
+          <input Id="search" type="search" name="search" placeholder="search sweets here">
+          <input Id="Search-button" type="submit" value="search">
+        </form>
+      </div>
+      <div class="nav-menu" style="margin-left: auto;">
+        <table>
+          <tr>
+            <td Id="table-colomn"><a href="">Home</a></td>
+            <td Id="table-colomn"><a
+                href="https://in.images.search.yahoo.com/yhs/search;_ylt=Awr1TZK81KRlO3kor30O9olQ;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMTM1MTIxODcwMgRfcgMyBGZyA3locy1zei0wMDIEZnIyA3A6cyx2OmksbTpzYi10b3AEZ3ByaWQDcmlod0YyelFUVENBZ09IcjBlQ2dPQQRuX3JzbHQDMARuX3N1Z2cDMTAEb3JpZ2luA2luLmltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDMARxc3RybAM2BHF1ZXJ5A3N3ZWV0JTIwBHRfc3RtcAMxNzA1MzAxMTkw?p=sweet+&fr=yhs-sz-002&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=type80260-2369706490&hsimp=yhs-002&hspart=sz&param1=3420881596">sweets</a>
+            </td>
+            <td Id="table-colomn"><a href="">bakeries</a></td>
+            <td Id="table-colomn"><a
+                href="https://www.igp.com/sweets?adgroupid=1272135760892603&device=c&keyword=igp&loc_interest_ms=&loc_physical_ms=148860&feeditemid=&adposition=&msclkid=2221c6bccb1f13e08055a31818c381e2&utm_source=bing&utm_medium=cpc&utm_campaign=DSA_Static_India-21&utm_term=igp&utm_content=All%20Webpages">order
+                online</a>
+            </td>
+            <td Id="table-colomn"><a href="">About us</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </nav>
+ <section>
+    <div class="bredcumb" style="display: flex;padding: 10px;">
+      <span>venue:magar patta ,hadapsar</span>
+      <span style="margin-left: auto;">+918010878441 +919545158858</span>
+    </div>
+
+
+    <div id="menubar-div">
+      <table border="3px" id="menubar-table">
+
+        <tr class="table-allrow">
+          <td width=250px  class="tleft-side">Gulabjamun1</td>
+
+          <td class="right-column" rowspan="12">
+            <img class="HD-image" src="H4.jpg">
+
+            <div class="imagslider"></div>
+          </td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side"><li background-color="red">Pedha</li></td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">Sonpapdi</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">laddu</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">jeelebi</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">karanji</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">barfi</td>
+         
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">rasmalai</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">Modak</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">kajukatli</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">besanladdu</td>
+        </tr>
+        <tr class="table-allrow">
+          <td class="tleft-side">balushahi</td>
+         </tr>
+      </table>
+    </div>
+
+   
+<div Id="div-of-blackdiv">
+  <div Id="div-0f-blackdiv">
+
+    <div Id="black-div">
+
+      <h1 Id="sweets-brand">Our popular Sweets</h1>
+
+      <div Id="pic-div"> 
+        <a href="gulabjamun.html"><img Id="sweets-pic" src="/all sweets/Gulabjamun.jpeg"></a>
+         <h5 Id="pic-h5">Gulabjamun</h5>
+         <p Id="price">price: ₹90 per kg</p>
+         <p class="discount-price">₹110</p>
+          <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="pedha.html"><img Id="sweets-pic" src="/all sweets/Sonpapdi.jpeg" alt="Pedha"></a>
+        <h5 Id="pic-h5">Sonpapdi</h5>
+        <p Id="price">price: ₹70 per kg</p>
+        <p class="discount-price">₹110</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="sonpapdi.html"><img Id="sweets-pic" src="/all sweets/pedha.jpeg" alt="Sonpapdi"></a>
+        <h5 Id="pic-h5">pedha</h5></img>
+        <p Id="price">price: ₹120 per kg</p>
+        <p class="discount-price">₹145</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      
+      </div>
+
+      <div Id="pic-div">
+        <a href="laddu.html"><img Id="sweets-pic" src="/all sweets/laddu.jpeg" alt="laddu"></a>
+        <h5 Id="pic-h5">laddu</h5></img>
+        <p Id="price">price: ₹60 per kg</p>
+        <p class="discount-price">₹100</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="jeelebi.html"><img Id="sweets-pic" src="/all sweets/jeelebi.jpeg" alt="jeelebi"></a>
+        <h5 Id="pic-h5">jeelebi</h5></img>
+        <p Id="price">price: ₹50 per kg</p>
+        <p class="discount-price">₹80</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="karanji.html"><img Id="sweets-pic" src="/all sweets/karanji.jpeg" alt="jeelebi"></a>
+        <h5 Id="pic-h5">karanji</h5></img>
+        <p Id="price">price: ₹90 per kg</p>
+        <p class="discount-price">₹110</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="barfi.html"><img Id="sweets-pic" src="/all sweets/barfi.jpeg" alt="barfi"></a>
+        <h5 Id="pic-h5">barfi</h5></img>
+        <p Id="price">price: ₹150 per kg</p>
+        <p class="discount-price">₹220</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="rasmalai.html"><img Id="sweets-pic" src="/all sweets/rasmalai.jpeg" alt="rasmalai"></a>
+        <h5 Id="pic-h5">rasmalai</h5></img>
+        <p Id="price">price: ₹90 per kg</p>
+        <p class="discount-price">₹120</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div> 
+      </div>
+
+      <div Id="pic-div">
+       <a href="modak.html"><img Id="sweets-pic" src="/all sweets/modak.jpeg" alt="modak"></a>
+        <h5 Id="pic-h5">Modak</h5></img>
+        <p Id="price">price: ₹200 per kg</p>
+        <p class="discount-price">₹350</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+="
+      <div Id="pic-div">
+        <a href="kajukatli.html"><img Id="sweets-pic" src="/all sweets/kajukatli.jpeg" alt="kajukatli"></a>
+        <h5 Id="pic-h5">kajukatli</h5></img>
+        <p Id="price">price: ₹120 per kg</p>
+        <p class="discount-price">₹200</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+
+      <div Id="pic-div">
+        <a href="besan laddu.html"><img Id="sweets-pic" src="/all sweets/besanladdu.jpeg" alt="besanladdu"></a>
+        <h5 Id="pic-h5">besan laddu</h5></img>
+        <p Id="price">price: ₹100 per kg</p>
+        <p class="discount-price">₹140</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>  
+      </div>
+
+      <div Id="pic-div">
+        <a href="balushahi.html"><img Id="sweets-pic" src="/all sweets/balushahi.jpeg" alt="balushahi"></a>
+        <h5 Id="pic-h5">balushahi</h5></img>
+        <p Id="price">price: ₹80per kg</p>
+        <p class="discount-price">₹150</p>
+        <div class="button-div"><a href="online-sweets-order.html"><button Id="order-button">+Add to cart</button></a></div>
+      </div>
+      
+     
+    </div>
+  </div>
+
+  </section>
+</div>
+
+
+<footer>
+  <div id="footer-div1">
+    <h1 id="contactus">Contact us</h1>
+    <address class="address">Website:Punam's Mithai shop</address>
+    <address class="address">Phone no:+8010878441</address>
+    <address class="address">Address:Magarpatta Hadapsar</address>
+    <address class="address">Email:haralp0707@gmail.com</address>
+  </div>
+  <div id="footer-div3">
+    <h1 id="policies">Policies</h1>
+    <address class="address">Shipping Policy</address>
+    <address class="address">Payment Policy</address>
+    <address class="address">Terms and Conditions</address>
+    <address class="address">Refund Policy</address>
+  </div>
+
+
+  <div id="footer-div2"><h1 id="followus">Follow us</h1>
+    <a href="https://twitter.com/businessmarketingsolution/"><img src="twitter.jpg" class="social-link"></a> 
+    <a href="https://www.instagram.com/businessmarketingsolution/"><img src="insta.jpg" class="social-link"></a>
+    <a href="https://web.whatsapp.com/"><img src="whatsapp.jpg" class="social-link"></a>
+  </div>
+ 
+</footer>
+<div id="developer">Developed by:Buisness Marketing Solution</div>
+
+</body>
+
+</html>
+
+</body>
+</html>
